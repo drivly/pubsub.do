@@ -1,27 +1,27 @@
-# Templates.do - Worker Templates API 
+# PubSub.do - PubSub Publisher & Subscriber APIs
 
-Explore the API at: <https://templates.do/api>
+Explore the API at: <https://pubsub.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
-    "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
-    "type": "https://apis.do/templates",
+    "name": "pubsub.do",
+    "description": "PubSub Publisher & Subscriber APIs",
+    "url": "https://pubsub.do/api",
+    "type": "https://apis.do/pubsub",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://pubsub.do/api",
+      "getCategory": "https://pubsub.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://pubsub.do",
+    "login": "https://pubsub.do/login",
+    "signup": "https://pubsub.do/signup",
+    "subscribe": "https://pubsub.do/subscribe",
+    "repo": "https://github.com/drivly/pubsub.do"
   }
   "examples": {
-    "listItems": "https://templates.do/worker"
+    "listItems": "https://pubsub.do/worker"
   }
 }
 ```
